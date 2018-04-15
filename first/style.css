@@ -1,0 +1,288 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+header{
+	width: 100%;
+	background: #111111;
+	display: flex;
+}
+body{
+	font-family: "Open Sans", sans-serif;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.header-logo{
+	padding: 25px 0 20px 0;
+	margin-left: 18%;
+}
+nav{
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 30px;
+	margin-left: 17%;
+}
+.topnav a:not(:first-of-type){
+	margin-left: 40px;
+}
+.topnav a{
+	color: #fff;
+}
+.background{
+	height: 2212px;
+	width: 100%;
+	max-height: 6000px;
+	position: relative;
+}
+.bgcsgo{
+	width: 100%;
+	height: auto;
+	background: url(img/CSGO1.png) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	padding-top: 155px;
+}
+.wrapper-header{
+	width: 40%;
+	height: 125px;
+	margin: 75px auto;
+	display: flex;
+	flex-direction: column;
+}
+.header-p{
+	font-size: 15px;
+	font-weight: bold;
+	background: #d13f4a;
+	padding: 8px 21px;
+	border-radius: 2px;
+	margin: 0px auto;
+	color: #fff;
+	text-align: center;
+}
+.header-p1{
+	font-size: 28px;
+	font-weight: bold;
+	background: #111111;
+	padding: 18px 25px;
+	border-radius: 2px;
+	margin: 0px auto;
+	color: #fff;
+	text-align: center;
+}
+.header-p2{
+	width: 381px;
+	font-size: 14px;
+	color: #ffffff;
+	text-align: center;
+	font-weight: bold;
+	padding: 15px 10px;
+	background: #0a0908;
+	margin: 0px auto;
+	border-radius: 2px;
+}
+.main-1{
+	width: 651px;
+	height: 1700px;
+	margin: 145px auto 0 auto;
+	background: #fff;
+	padding: 10px;
+	margin: 0;
+	margin-top: 145px;
+	/*float: left;*/
+
+}
+.lates-news{
+	width: 627px;
+	height: 20px;
+	background: #f3f3f3;
+	color: #999999;
+	padding: 15px 10px;
+	border-right: 3px solid #d13f4a;
+	font-size: 16px;
+}
+.main-2{
+	width: 290px;
+	height: 1730px;
+	margin-top: 145px;
+	background: #020202;
+	/*float: left;*/
+	color: white;
+}
+.main-2 .h2{
+	background: #181818;
+	padding: 15px 160px 15px 10px;
+	margin: 9px;
+	color: #999999;
+	border-right: 2px solid #d13f4a;
+}
+.main-2 .h2 h1{
+	font-size: 16px;
+	font-weight: normal;
+}
+.main-2 .m2img{
+	padding: 10px;
+	width: 92%;
+	height: 28px;
+	word-wrap: normal;
+}
+.main-2 .m2img p{
+	float: right;
+	font-size: 16px;
+	font-weight: bold;
+}
+.main-2 .m2img img{
+	float: left;
+	margin-bottom: 10px;
+
+}
+.cod2{
+	margin-left: 12px;
+	margin-top: 13px;
+}
+
+
+
+.flexbox{
+	height: 100%
+	width: 100%;
+	flex-direction: row;
+	justify-content: center;
+}
+.wrapper{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.article{
+	margin-top: 12px;
+
+}
+.about-article img{
+	margin-top: 25px;
+	margin-right: 25px;
+	width: 78px;
+	height: 112px;
+}
+.about-article{
+	display: flex;
+	flex-wrap: nowrap;
+}
+.article-text{
+	margin-top: 25px;
+}
+.p-and-h{
+	color: #484848;
+}
+.p-and-h h1{
+	padding-left: 22px;
+	border-left: 2px solid #d13f4a;
+	font-size: 21px;
+	font-weight: bold;
+}
+.p-and-h p{
+	width: 521px;
+	font-size: 13px;
+	font-style: italic;
+	padding: 15px 22px;
+	line-height: 22px;
+}
+.footer-img{
+	margin: 0 auto;
+	width: 8%;
+	margin-top: 35px;
+}
+.footer-img img{
+	width: 53px;
+	height: 24px;
+}
+.div-img{
+	padding: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.div-p{
+	text-align: right;
+	margin-top: -50px;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 10px;
+	padding-bottom: 0px;
+	padding-right: 5px;
+}
+.div-p1{
+	text-align: right;
+	font-size: 10px;
+	font-weight: bold;
+	padding: 10px;
+	padding-top: 0;
+	color: #d13f4a;
+	padding-right: 5px;
+}
+.recomend img{
+	padding: 10px;
+	padding-top: 6px;
+	padding-bottom: 0px;
+}
+.gallery img{
+	padding: 1px;
+	padding-right: 3px;
+}
+.gal-wrap{
+	margin-left: 8px;
+}
+.streams-p{
+	display: flex;
+}
+.p1-streams{
+	font-size: 13px;
+	font-weight: bold;
+	color: #d13f4a;
+	padding-left: 10px;
+}
+.p2-streams{
+	font-size: 10px;
+	font-style: italic;
+	padding-left: 25px;
+}
+.p3-streams{
+	font-size: 13px;
+	font-weight: bold;
+	padding-left: 25px;
+}
+.div-streams img{
+	padding: 10px;
+	padding-top: 3px;
+	width: 270px;
+	height: 83px;
+}
+.twitter img{
+	padding-left: 10px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+}
+.twit-p{
+	font-size: 10px;
+	font-style: italic;
+	padding-bottom: 5px;
+}
+.twitter-block{
+	display: flex;
+	flex-direction: row;
+	position: relative;
+}
+.twitter-block time{
+	position: absolute;
+	font-size: 9px;
+	right: 5px;
+	top: 30px;
+	font-style: italic;
+	text-transform: uppercase;
+	color: #f4f0f0;
+}
