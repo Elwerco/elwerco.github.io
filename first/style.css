@@ -286,3 +286,19 @@ nav{
 	text-transform: uppercase;
 	color: #f4f0f0;
 }
+@media screen and (max-width: 1226px){
+	nav{
+		margin-left:14%;
+	}
+
+}
+@media screen and (max-width: 1140px){
+	nav{
+		margin-left:9%;
+	}
+}
+@media screen and (max-width: 1093px){
+	nav{
+		margin-left:7%;
+	}
+}
