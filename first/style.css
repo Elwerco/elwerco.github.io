@@ -276,6 +276,7 @@ nav{
 	display: flex;
 	flex-direction: row;
 	position: relative;
+	margin-top: -3px;
 }
 .twitter-block time{
 	position: absolute;
