@@ -1114,3 +1114,7 @@ footer {
           position: absolute;
           left: 70px;
           top: 100px; }
+
+@media screen and (max-width: 1144px) {
+  .overflow {
+    overflow-x: visible; } }
