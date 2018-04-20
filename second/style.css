@@ -1,8 +1,5 @@
-html {
-  width: 100%; }
-
 body {
-  width: 100%; }
+  min-width: 100%; }
 
 .overflow {
   overflow-x: hidden; }
@@ -1116,5 +1113,9 @@ footer {
           top: 100px; }
 
 @media screen and (max-width: 1144px) {
-  .overflow {
-    overflow-x: visible; } }
+  body {
+    min-width: 100%;
+    width: 1920px;
+    margin: 0; } }
+
+/*# sourceMappingURL=style.css.map */

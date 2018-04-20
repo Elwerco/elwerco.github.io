@@ -1,8 +1,6 @@
-html{
-	width: 100%;
-}
+
 body {
-	width: 100%
+	min-width: 100%;
 
 }
 .overflow{
@@ -1296,9 +1294,10 @@ footer{
 }
 
 
-@media screen and (max-width: 1144px){
-	.overflow{
-	overflow-x: visible;
+ @media screen and (max-width: 1144px){
+ 	body {
+	min-width: 100%;
+	width: 1920px;
+	margin: 0;
 }
-
-}
+ }
